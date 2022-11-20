@@ -6,10 +6,6 @@ Although only Photoshop is being handled currently, it may handle different outp
 
 Demo & more infos: [Thread](https://twitter.com/cyrildiagne/status/1256916982764646402)
 
-⚠️ This is a research prototype and not a consumer / photoshop user tool.
-
-**Update 2020.05.11:** If you're looking for an easy to use app based on this research, head over to https://clipdrop.co
-
 ## Modules
 
 This prototype runs as 3 independent modules:
@@ -70,9 +66,3 @@ Use this endpoint by launching the local server with `--basnet_service_ip http:/
 ### 4 - Configure and run the mobile app
 
 - Follow the instructions in [/app](/app) to setup & deploy the mobile app.
-
-## Thanks and Acknowledgements
-
-- [BASNet code](https://github.com/NathanUA/BASNet) for '[*BASNet: Boundary-Aware Salient Object Detection*](http://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html) [code](https://github.com/NathanUA/BASNet)', [Xuebin Qin](https://webdocs.cs.ualberta.ca/~xuebin/), [Zichen Zhang](https://webdocs.cs.ualberta.ca/~zichen2/), [Chenyang Huang](https://chenyangh.com/), [Chao Gao](https://cgao3.github.io/), [Masood Dehghan](https://sites.google.com/view/masoodd) and [Martin Jagersand](https://webdocs.cs.ualberta.ca/~jag/)
-- RunwayML for the [Photoshop paste code](https://github.com/runwayml/RunwayML-for-Photoshop/blob/master/host/index.jsx)
-- [CoreWeave](https://www.coreweave.com) for hosting the public U^2Net model endpoint on Tesla V100s
